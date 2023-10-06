@@ -98,7 +98,6 @@ function scorerPrompt() {
    let algorithm=input.question(" Enter 0, 1, or 2:")
    let score=scoringAlgorithms[algorithm].scorerFunction(word);
    console.log("score for "+word+": "+score);
-
 }
 
 function transform(oldPointStructure) {
