@@ -106,7 +106,6 @@ function transform(oldPointStructure) {
       let letters=oldPointStructure[item];
       for(i=0;i<letters.length;i++){
          newPointStructure[letters[i].toLowerCase()]=Number(item);
-         console.log(item);
       }
    }
    return newPointStructure;
@@ -145,7 +144,7 @@ let newPointStructure=transform(oldPointStructure);
 
 
 function runProgram() {
-   //initialPrompt();
+   initialPrompt();
    //simpleScorer("apple1");
    scorerPrompt();
    
